@@ -10,13 +10,7 @@ Desechamos la información que no necesitamos y organizamos en diccionarios la q
 Guardamos la información en CSV en un Bucket de GCP para posteriormente, en otra parte del proyecto, combinar esta información mediante DataFlow y pintar un dashboard en DataStudio. 
 
 
-
-El despliegue original de esta solución esta realizado de la siguiente manera:
-
-
-
 Como ejecutarlo en local:
-
 
 
 Cd C:\Users\Sergio\Documents\GitHub\getInfoJira
@@ -31,3 +25,19 @@ pip install -r requirements.txt
 
 python __main__.py C:\Users\sergio.cobos\AppData\Roaming\gcloud\application_default_credentials.json
 
+
+
+El despliegue original de esta solución esta realizado de la siguiente manera:
+
+
+# AS IS
+
+
+![image-20220405-094235](https://user-images.githubusercontent.com/46417402/171605682-7764675d-14b1-458a-a3d6-638bdfb09b8b.png)
+
+
+
+# TO BE
+
+
+![image-20220525-085501](https://user-images.githubusercontent.com/46417402/171605707-4e6d810a-4b41-4797-a763-282765efa016.png)
